@@ -1,4 +1,3 @@
-import java.util.HashSet;
 import java.util.Scanner;
 import java.io.BufferedReader;  
 import java.io.File;  
@@ -7,25 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;  
 
 public class HW1 {
-    /*if A contains all the character of B */
-    /* public static boolean contains(String a,String b){
-        if(a==null||b==null){
-            return false;
-        }else{
-            HashSet<Character> set=new HashSet<Character>();
-            int length=a.length();
-            for(int i=0;i<length;i++){
-                set.add(a.charAt(i));//build hash to a
-            }
-            length=b.length();
-            for(int i=0;i<length;i++){
-                if( !set.contains(b.charAt(i)) ){//if a don't hava b.charAt(i),return false
-                    return false;
-                }
-            }
-            return true;
-        }
-	}*/
      public static boolean contains(String A, String B) {  
         int[] array = new int[60];  
           
