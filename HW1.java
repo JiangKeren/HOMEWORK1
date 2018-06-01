@@ -17,6 +17,7 @@ public class HW1 {
         //check whether all the characters in B exist in A  
         for (int j = 0; j < B.length(); j++) {  
             array[B.charAt(j) - 'A'] --;  
+	    if(B.charAt(j)=='q') array['u'-'A']++;
             if (array[B.charAt(j) - 'A'] < 0) return false;  
         }  
           
