@@ -60,7 +60,7 @@ public class HW1 {
 		}
 	    }
 	    System.out.println();
-	    System.out.println(chmax +": "+f);
+	    System.out.println("Highest score words: "+chmax +": "+f);
             reader.close();  
         } catch (IOException e) {  
             e.printStackTrace();  
